@@ -1,0 +1,24 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "generate-icons": "vsvg -s ./svg-icons -t ./src/compiled-icons"
+  },
+  "dependencies": {
+    "@altipla/fa6-icon": "^0.2.0",
+    "@ring-ui-vue/icons-vue": "^0.0.1",
+    "bootstrap": "^5.2.0",
+    "ionicons": "^5.5.2",
+    "lodash-es": "^4.17.21",
+    "marked": "^4.0.18",
+    "svgicon": "^1.0.3",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.12"
+  }
+}
